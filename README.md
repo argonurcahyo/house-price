@@ -27,22 +27,30 @@ pip install requests beautifulsoup4 pandas
 ## How to Use
 
 1. Clone this repository:
+
    ```bash
    git clone <repository-url>
    ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd house-price-scraper
    ```
+
 3. Open the Jupyter Notebook:
+
    ```bash
    jupyter notebook house-price.ipynb
    ```
+
 4. Modify the `region` variable in the notebook to target your desired location. Example:
+
    ```python
    region = 'badung'
    base_url = f"https://www.rumah123.com/jual/{region}/rumah/"
    ```
+
 5. Run the notebook cells to scrape and process the data.
 
 ## Output
